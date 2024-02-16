@@ -1,0 +1,12 @@
+[
+    {
+        "statement": "The board sets the objective of winning the league this season. Are you committed to achieving this goal at any cost?",
+        "agree":    { "players": 0, "fans":  1, "management":  1, "finances": -1 },
+        "disagree": { "players": 0, "fans": -1, "management": -1, "finances":  1 }
+    },
+    {
+        "statement": "Your star player demands a salary increase. Do you agree to their demand?",
+        "agree":    { "players": 1, "fans":  1, "management":  0, "finances": -1 },
+        "disagree": { "players":-1, "fans": -1, "management":  0, "finances":  1 }
+    }
+]
