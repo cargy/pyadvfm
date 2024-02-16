@@ -11,7 +11,7 @@ from .statements import generator
 class AdvFMEditor(toga.App):
     def startup(self):
         self.game = Game(10, 10, 10, 10)
-        self.statement_generator = generator('/home/argy/dev/pyadvfm/advfmeditor/src/advfmeditor/resources/statements_001.json')
+        self.statement_generator = generator('statements_001.json')
         self.current_statement = next(self.statement_generator)
         """Construct and show the Toga application.
 
